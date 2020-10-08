@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(
+      #1d1d1d 25%,
+      #1a1a1a 25%,
+      #1a1a1a 50%,
+      transparent 50%,
+      transparent 75%,
+      #242424 75%,
+      #242424
+    );
+  background-color: #131313;
+  background-size: 20px 20px;
+  position: absolute;
+  z-index: -2;
+  color: #cecece;
+  overflow-x: hidden;
+}
+.title {
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 110px 0 30px 0;
+  transition: all 0.5s;
+}
+.title h1 {
+  font-size: 6vw;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+main {
+  height: 45vh;
+  text-align: center;
+}
+
+#tag h3 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#credit {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
+#credit a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+/* WHEN SHEARCH RESULTS CAME */
+.special {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10px 30px;
+  height: 14vh;
+  transition: all 0.5s;
+}
+.special h1 {
+  font-size: 25px;
+}

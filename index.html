@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pic-Zania</title>
+    <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" href="css/result.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Pic-zania</h1>
+      <div class="form-container">
+        <form>
+          <input type="text" required />
+          <button><img src="assets/search.svg" alt="Search svg" /></button
+          ><label>Search photos...</label>
+        </form>
+      </div>
+    </div>
+    <main>
+      <div id="tag">
+        <h3>Popular Tags:</h3>
+        <ul id="tagLinks">
+          <!-- THE TAGS WILL BE COMING FROM JAVASCRIPT -->
+        </ul>
+      </div>
+      <div id="output" class="container"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
